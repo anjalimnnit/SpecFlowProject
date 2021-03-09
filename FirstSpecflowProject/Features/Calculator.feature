@@ -1,5 +1,6 @@
 ﻿Feature: Calculator
 
+@longrunning
 Scenario Outline: Operate two numbers
 	Given I have a Calculator
 	When I apply <operation> on <first> and <second>

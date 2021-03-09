@@ -72,14 +72,20 @@ namespace FirstSpecflowProject.Features
         
         public virtual void OperateTwoNumbers(string operation, string first, string second, string result, string[] exampleTags)
         {
-            string[] tagsOfScenario = exampleTags;
+            string[] @__tags = new string[] {
+                    "longrunning"};
+            if ((exampleTags != null))
+            {
+                @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
+            }
+            string[] tagsOfScenario = @__tags;
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             argumentsOfScenario.Add("operation", operation);
             argumentsOfScenario.Add("first", first);
             argumentsOfScenario.Add("second", second);
             argumentsOfScenario.Add("result", result);
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Operate two numbers", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 3
+#line 4
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -99,47 +105,51 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 4
+#line 5
  testRunner.Given("I have a Calculator", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 5
+#line 6
  testRunner.When(string.Format("I apply {0} on {1} and {2}", operation, first, second), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 6
+#line 7
  testRunner.Then(string.Format("the result should be {0}", result), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("Operate two numbers, add", SourceLine=9)]
+        [TechTalk.SpecRun.ScenarioAttribute("Operate two numbers, add", new string[] {
+                "longrunning"}, SourceLine=10)]
         public virtual void OperateTwoNumbers_Add()
         {
-#line 3
+#line 4
 this.OperateTwoNumbers("add", "40", "25", "65", ((string[])(null)));
 #line hidden
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("Operate two numbers, subtract", SourceLine=9)]
+        [TechTalk.SpecRun.ScenarioAttribute("Operate two numbers, subtract", new string[] {
+                "longrunning"}, SourceLine=10)]
         public virtual void OperateTwoNumbers_Subtract()
         {
-#line 3
+#line 4
 this.OperateTwoNumbers("subtract", "34", "10", "24", ((string[])(null)));
 #line hidden
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("Operate two numbers, multiply", SourceLine=9)]
+        [TechTalk.SpecRun.ScenarioAttribute("Operate two numbers, multiply", new string[] {
+                "longrunning"}, SourceLine=10)]
         public virtual void OperateTwoNumbers_Multiply()
         {
-#line 3
+#line 4
 this.OperateTwoNumbers("multiply", "25", "4", "100", ((string[])(null)));
 #line hidden
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("Operate two numbers, divide", SourceLine=9)]
+        [TechTalk.SpecRun.ScenarioAttribute("Operate two numbers, divide", new string[] {
+                "longrunning"}, SourceLine=10)]
         public virtual void OperateTwoNumbers_Divide()
         {
-#line 3
+#line 4
 this.OperateTwoNumbers("divide", "50", "2", "25", ((string[])(null)));
 #line hidden
         }

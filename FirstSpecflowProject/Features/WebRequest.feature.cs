@@ -100,7 +100,7 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.Given("I have a web client", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 5
- testRunner.When("I want to get the web page <url>", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("I want to get the web page \'http://example.com\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 6
  testRunner.Then("the result should have status code \'200\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
