@@ -34,6 +34,18 @@ namespace FirstSpecflowProject.Steps
                 Console.WriteLine(product.Price);
             }
         }
+        [Given(@"""The information of an employee")]
+        public void GivenTheInformationOfAnEmployee(Table table)
+        {
+            var employees = table.CreateDynamicSet();
+            foreach (var employee in employees)
+            {
+                Console.WriteLine(employee.Name);
+                Console.WriteLine(employee.EmployeeId);
+                Console.WriteLine(employee.Designation);
+            }
+        }
+
 
     }
 }

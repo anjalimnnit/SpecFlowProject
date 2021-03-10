@@ -17,6 +17,15 @@ Given These products exists
 | BOOK2            | The Fountainhead | 20.15 |
 
   
+Scenario: Create Dynamic Instance method
+
+Given "The information of an employee
+| Name      | EmployeeId | Designation           |
+| Anjali    | E001        | Software Engineer     |
+| Muskan    | E002        | Software Engineer     |
+| Aayush    | E003        | Software Technologist |
+| Nagashree | E004        | Product Owner         |
+
 
 
 
