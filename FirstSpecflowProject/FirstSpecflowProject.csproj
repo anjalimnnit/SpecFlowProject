@@ -30,6 +30,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Character\GameCharacter.csproj" />
+    <ProjectReference Include="..\ContextInjection\ContextInjection.csproj" />
     <ProjectReference Include="..\SpecflowAssistMethods\SpecflowAssistMethods.csproj" />
     <ProjectReference Include="..\SpecFlowCalculator\SpecFlowCalculator.csproj" />
   </ItemGroup>

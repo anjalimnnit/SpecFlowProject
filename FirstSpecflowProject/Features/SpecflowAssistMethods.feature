@@ -12,7 +12,7 @@ Scenario: Create Instance method
 
 Scenario: Create Set method
 Given These products exists
-  | Sku              | Name             | Price |
+  | Category           | Name             | Price |
 | BOOK1            | Atlas Shrugged   | 25.04 |
 | BOOK2            | The Fountainhead | 20.15 |
 

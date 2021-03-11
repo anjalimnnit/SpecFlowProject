@@ -145,7 +145,7 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
                 TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
-                            "Sku",
+                            "Category",
                             "Name",
                             "Price"});
                 table4.AddRow(new string[] {

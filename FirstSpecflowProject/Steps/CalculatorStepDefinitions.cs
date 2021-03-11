@@ -12,6 +12,10 @@ namespace FirstSpecflowProject.Steps
 
         private Calculator _calculator;
         private int _result;
+        public CalculatorStepDefinitions(Calculator calculator)
+        {
+            _calculator = calculator;
+        }
         [Given(@"I have a Calculator")]
         public void GivenIHaveACalculator()
         {

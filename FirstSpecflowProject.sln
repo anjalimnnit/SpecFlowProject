@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpecFlowCalculator", "SpecF
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameCharacter", "Character\GameCharacter.csproj", "{78E77A6B-4650-446F-8F6E-709998C80AEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecflowAssistMethods", "SpecflowAssistMethods\SpecflowAssistMethods.csproj", "{A89FCD44-0E70-4EB3-BEF6-3CB0D4BE6A01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpecflowAssistMethods", "SpecflowAssistMethods\SpecflowAssistMethods.csproj", "{A89FCD44-0E70-4EB3-BEF6-3CB0D4BE6A01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContextInjection", "ContextInjection\ContextInjection.csproj", "{883BAB73-1976-4C2A-B3D3-3099B5DC088A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{A89FCD44-0E70-4EB3-BEF6-3CB0D4BE6A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A89FCD44-0E70-4EB3-BEF6-3CB0D4BE6A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A89FCD44-0E70-4EB3-BEF6-3CB0D4BE6A01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{883BAB73-1976-4C2A-B3D3-3099B5DC088A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{883BAB73-1976-4C2A-B3D3-3099B5DC088A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{883BAB73-1976-4C2A-B3D3-3099B5DC088A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{883BAB73-1976-4C2A-B3D3-3099B5DC088A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

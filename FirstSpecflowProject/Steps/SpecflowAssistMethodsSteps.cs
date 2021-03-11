@@ -30,7 +30,7 @@ namespace FirstSpecflowProject.Steps
             foreach (var product in products)
             {
                 Console.WriteLine(product.Name);
-                Console.WriteLine(product.Sku);
+                Console.WriteLine(product.Category);
                 Console.WriteLine(product.Price);
             }
         }
